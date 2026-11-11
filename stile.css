@@ -59,3 +59,8 @@ figcaption { margin-top: .65rem; font-weight: 650; }
   .cornice { width: calc(100% - 2rem); }
   .elenco { grid-template-columns: 1fr; }
 }
+.informativa { max-width: 46rem; padding-block: clamp(2.5rem, 7vw, 5rem); overflow-wrap: anywhere; }
+.informativa h1 { font-size: clamp(2.65rem, 7vw, 4.75rem); margin-top: 0; }
+.informativa h2 { font-size: clamp(1.85rem, 4vw, 2.55rem); margin-top: 2rem; }
+.informativa p { margin-top: .8rem; }
+.informativa .secondario { color: var(--secondario); }
